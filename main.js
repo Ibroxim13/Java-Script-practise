@@ -323,7 +323,21 @@
 //     if (Math.sqrt(x) == 9) break;
 // }
 
-for (let x = 0; x <= 10; x++) {
-    if (x == 5) continue
-    console.log(x);
+// for (let x = 0; x <= 10; x++) {
+//     if (x == 5) continue
+//     console.log(x);
+// }
+
+// let text = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius non fugit saepe aperiam, optio consectetur asperior consequuntur placeat, totam nobis tempore quis nam quaerat illum modi, excepturi ipsum voluptates dolore."
+// let counter = 0;
+// for (let x = 0; x < text.length; x++) {
+//     if (text[x] == "o") counter++;
+// }
+// console.log(counter);
+
+for (let x = 1; x <= 10; x++) {
+    console.log("5*" + x + "=" + 5 * x);
+}
+for (let x = 1; x <= 10; x++) {
+    console.log("2*" + x + "=" + 2 * x);
 }
