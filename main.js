@@ -42,7 +42,7 @@
 // console.log((kubA ** 3), "kubning hajmi", (6 * (kubA**2)), "kubning to'la sirti");
 
 // //paralelepepid
-// let pA = 12; 
+// let pA = 12;
 // let pB = 10;
 // let pC = 8;
 // console.log(pA * pB * pC, "paralelepepidning hajmi", 2 * (pA * pB + pB * pC + pA * pC), "paralelepepidning to'la sirti"  )
@@ -51,7 +51,7 @@
 // let dRadius = 19;
 // console.log(dRadius * 3.14 * 2 , "doiraning uzunligi", 3.14 * (dRadius**2), "doiraning yuzasi");
 
-//o'rta arifmetik 
+//o'rta arifmetik
 // let e = 4;
 // let s = 3;
 // console.log((e + s )/ 2 , "sonlarning o'rta arifmetigi");
@@ -339,8 +339,82 @@
 //     console.log("2*" + x + "=" + 2 * x);
 // }
 
-for (var i = 1; i <= 10; i++) {
-    for (var j = 1; j <= i; j++) {
-        console.log(i + "*" + j + "=" + i * j);
-    }
-}
+
+// for (var i = 1; i <= 10; i++) {
+//     for (var j = 1; j <= i; j++) {
+//         console.log(i + "*" + j + "=" + i * j);
+//     }
+// }
+
+//for 1
+// let k = 12;
+// for (let n = 1; n < 10; n++){
+//     console.log(k);
+// }
+
+//for 2
+// let b = 20;
+// let counter = 0;
+// for (let a = 10; a <= b; a++) {
+//     counter++
+//     console.log(a);
+// }
+// console.log(counter);
+
+
+// for 3
+// let a = 10;
+// let b =20;
+// let counter = 0;
+// for (let i = b; a < i; i--) {
+//     counter++;
+//     if (i==b) {
+//         continue;
+//     }
+//     console.log(i);
+// }
+// console.log(counter);
+
+// for4
+// let price = 1000;
+// for (let i = 1; i <= 10; i++) {
+//     console.log(i * price);
+// }
+
+// for5
+// let price = 1000;
+// for (let i = 0; i <= 1; i += 0.1) {
+//     console.log(Math.trunc(i * price));
+// }
+
+// for6
+// let price = 1000;
+// for (let i = 1.2; i <= 2; i += 0.2) {
+//     console.log(Math.trunc(i * price));
+// }
+
+// for7
+// let counter = 0;
+// let b = 20;
+// for (let a = 10; a < b; a++) {
+//     counter += a;
+// }
+// console.log(counter)
+
+//for8
+// let counter = 1;
+// let b = 20;
+// for (let a = 10; a < b; a++) {
+//     counter *= a;
+// }
+// console.log(counter);
+
+//for9
+// let counter = 0;
+// let b = 20;
+// for (let a = 10; a < b; a++) {
+//     counter += (a**2);
+// }
+// console.log(counter);
+
+//for10
