@@ -335,9 +335,12 @@
 // }
 // console.log(counter);
 
-for (let x = 1; x <= 10; x++) {
-    console.log("5*" + x + "=" + 5 * x);
-}
-for (let x = 1; x <= 10; x++) {
-    console.log("2*" + x + "=" + 2 * x);
+// for (let x = 1; x <= 10; x++) {
+//     console.log("2*" + x + "=" + 2 * x);
+// }
+
+for (var i = 1; i <= 10; i++) {
+    for (var j = 1; j <= i; j++) {
+        console.log(i + "*" + j + "=" + i * j);
+    }
 }
