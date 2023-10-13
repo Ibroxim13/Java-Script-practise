@@ -417,4 +417,154 @@
 // }
 // console.log(counter);
 
-//for10
+// for (var i = 2; i <= 10; i++) {
+//     if (i % 2 === 1) {
+//         for (var j = 1; j <= 9; j++) {
+//             console.log(i + "*" + j + "=" + i * j);
+//         }
+//     }
+// }
+
+//WHILE
+// let i = 0;
+// while(i <= 10){
+//     console.log(i);
+//     i++;
+// } 
+
+// let i = 0;
+// do {
+//     if (i % 2 == 1) {
+//         console.log(i);
+//     }
+//     i++;
+// }
+// while (i < 50);
+
+// let a = 22;
+// if(true){
+//     a++;
+//     console.log(a);
+// }
+// console.log(a);
+
+// let i = 1;
+// let factorial = 1;
+// while (i <= 10) {
+//     factorial
+//      *= i;
+//     i++;
+// }
+// console.log(factorial);
+
+// let a = 2;
+// let summa = 5;
+// while (a <= 5) {
+//     summa += summa * a;
+//     a++;
+// }
+// console.log(summa);
+
+// let a = -12;
+// let b = 3;
+// let i = 1;
+// let count = 0;
+// while (i <= b) {
+//     count++;
+//     i++;
+// }
+// console.log(count);
+
+
+
+// 11 october
+
+// 1
+// let number = 18;
+// for (let i = 1; i <= number; i++) {
+//     if (number % i == 0) {
+//         console.log(i);
+//     }
+// }
+
+// 2
+// let number = 10;
+// let counter = 0
+// for (let i = 1; i <= number; i++) {
+//     counter += i;
+// }
+// console.log(counter);
+
+// 3
+// let result = "";
+// let border = 5;
+// for (let i = 1; i <= border; i++){
+//     result += "*";
+//     console.log(result);
+// }
+
+// 4
+// let result = "";
+// let border = 5;
+// for (let i = 1; i <= border; i++) {
+//     result += "*";
+// }
+// for (let i = border; i >= 1; i--) {
+//     result = result.slice(0,i);
+//     console.log(result);
+// }
+
+//5
+// let result = "";
+// let border = 4;
+// for (let i = 1; i <= border; i++) {
+//     result += "-";
+// }
+// for (let j = border; j >= 0; j--) {
+//     if (result = result.slice(0, j)) {
+//         for (let k = 0 ; k < j; k++ ){
+//             result += "*";
+//         }
+//         console.log(result);
+//     }
+
+// }
+
+
+// 6
+// let result = "";
+// let border = 5;
+// for (let i = 1; i <= border; i++) {
+//     result += "*";
+//     console.log(result);
+// }
+// for (let j = border; j >= 1; j--) {
+//     result = result.slice(0,j);
+//     if ( j == border) continue;
+//     console.log(result);
+// }
+
+// 7
+// let result = "";
+// let border = 5;
+// for (let i = 1; i <= border; i++) {
+//     result += "*";
+// }
+// for (let j = border; j >= 1; j--) {
+//     result = result.slice(0,j);
+//     console.log(result);
+// }
+// for (let i = 1; i < border; i++) {
+//     result += "*";
+//     console.log(result);
+// }
+
+// 8
+let text = "";
+for (let i = 1; i <= 9; i++) {
+    text += `${i}`
+    for (let j = 0; j > i; j++){
+        text += j;
+        
+    }
+}console.log(text);
