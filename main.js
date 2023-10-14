@@ -478,7 +478,6 @@
 
 
 // 11 october
-
 // 1
 // let number = 18;
 // for (let i = 1; i <= number; i++) {
@@ -515,20 +514,21 @@
 // }
 
 //5
+// let n = 5;
+// let m = 0;
 // let result = "";
-// let border = 4;
-// for (let i = 1; i <= border; i++) {
-//     result += "-";
-// }
-// for (let j = border; j >= 0; j--) {
-//     if (result = result.slice(0, j)) {
-//         for (let k = 0 ; k < j; k++ ){
-//             result += "*";
-//         }
-//         console.log(result);
+// for (let i = 0; i < 5; i++) {
+//     m++;
+//     n--;
+//     for (let k = 0; k < n; k++) {
+//         result += " ";
 //     }
-
-// }
+//     for (let j = 0; j < m; j++) {
+//         result += "*";
+//     }
+//     result += "\n";
+// } 
+// console.log(result);
 
 
 // 6
@@ -538,9 +538,8 @@
 //     result += "*";
 //     console.log(result);
 // }
-// for (let j = border; j >= 1; j--) {
+// for (let j = border-1; j >= 1; j--) {
 //     result = result.slice(0,j);
-//     if ( j == border) continue;
 //     console.log(result);
 // }
 
@@ -560,11 +559,72 @@
 // }
 
 // 8
-let text = "";
-for (let i = 1; i <= 9; i++) {
-    text += `${i}`
-    for (let j = 0; j > i; j++){
-        text += j;
-        
-    }
-}console.log(text);
+// let text = "";
+// for (let i = 1; i <= 9; i++) {
+//     text += `${i}`
+//     for (let j = 0; j > i; j++){
+//         text += j;
+
+//     }
+// }console.log(text);
+
+//14th october Functions
+// function juft() {
+//     for (let i = 2; i <= 50; i++) {
+//         if (i % 2 == 0) {
+//             console.log(i);
+//         }
+//     }
+// }
+
+// juft();
+
+
+
+//function's argument and parametr
+// function test(a,b) {
+//     console.log(a / b);
+// }
+
+// test(10,5);
+
+
+// function sum(a, b) {
+//     let counter = 0;
+//     for (let i = a; i <= b; i++) {
+//         counter += i;
+//     }
+//     console.log(counter);
+// }
+
+// sum(1,100);
+
+
+//
+// let counterNumbers = 0;
+// function test2(a) {
+//     for( let i = 0; i<= a; i++){
+//         if (i % 2 == 0) {
+//             counterNumbers += i;
+//         }
+//     }
+//     return counterNumbers;
+// } 
+
+// let result = test2(10);
+// console.log(result);
+
+// let count = 0;
+
+// function topJuft(son) {
+//     for (let i = 0; i <= son; i++) {
+//         if (i % 2 == 0) {
+//             sum(i);
+//         }
+//     }
+//     console.log(count);
+// }
+
+// function sum(juftson) {
+//     count += juftson;
+// }
