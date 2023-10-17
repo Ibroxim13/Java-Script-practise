@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    background: #0f5adc;
+    height: 60vh;
+}
+
+.bottom {
+    background: #3a3a3a;
+    height: 40vh;
+    position: relative;
+}
+
+.bottom p:nth-child(1) {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    height: 30px;
+    background: #1f1f1f;
+}
+
+.bottom p:nth-child(2) {
+    width: 350px;
+    height: 15px;
+    background-color: #fff;
+    position: absolute;
+    right: 300px;
+    top: 180px;
+}
+
+.bottom p:nth-child(3) {
+    width: 350px;
+    height: 15px;
+    background-color: #fff;
+    position: absolute;
+    right: 800px;
+    top: 180px;
+}
+
+.bottom p:nth-child(4) {
+    width: 350px;
+    height: 15px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 260px;
+    top: 180px;
+}
+
+
+.car {
+    position: fixed;
+    left: 0;
+    bottom: 200px;
+    z-index: 999999999999999;
+    animation: object 8s infinite;
+}
+
+.kuzov {
+    position: absolute;
+    top: 0;
+}
+
+.tyre1 {
+    position: absolute;
+    left: 29px;
+    bottom: -140px;
+    animation-name: tyre__1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background: url(tyre.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+}
+
+.tyre2 {
+    position: absolute;
+    left: 321px;
+    bottom: -141px;
+    animation-name: tyre__2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background: url(tyre.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+
+@keyframes tyre__1 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes tyre__2 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes object {
+    from {
+        transform: translateX(-200px);
+    }
+
+    to {
+        transform: translateX(2000px);
+    }
+}
