@@ -430,7 +430,7 @@
 // while(i <= 10){
 //     console.log(i);
 //     i++;
-// } 
+// }
 
 // let i = 0;
 // do {
@@ -527,7 +527,7 @@
 //         result += "*";
 //     }
 //     result += "\n";
-// } 
+// }
 // console.log(result);
 
 
@@ -609,7 +609,7 @@
 //         }
 //     }
 //     return counterNumbers;
-// } 
+// }
 
 // let result = test2(10);
 // console.log(result);
@@ -628,3 +628,133 @@
 // function sum(juftson) {
 //     count += juftson;
 // }
+
+
+
+//Matters with solve function decloration
+
+//1
+// function arifmetik(a, b, c) {
+//     console.log((a + b + c) / 3);
+// }
+// arifmetik(4, 5, 6);
+
+
+// 2
+// function squarePerimetr(a) {
+//     console.log(4 * a);
+// }
+// squarePerimetr(3);
+
+
+// 3
+// function rectangle(a, b) {
+//     console.log(a * b, "rectangle's surface");
+//     console.log(2 * (a + b), "rectangle's perimetr");
+// }
+// rectangle(4, 8);
+
+
+// 4
+// function cube(a) {
+//     console.log(a**3,"cube's volume");
+//     console.log(6*(a**2), "cube's full surface");
+// }
+// cube(5);
+
+
+// 5
+// function numbers(a, b, c) {
+//     a = b;
+//     b = c;
+//     c = a;
+//     console.log(a,b,c);
+// }
+// numbers(3,5,7);
+
+
+
+// 6
+// function squareOfTheNumber(a) {
+//     console.log(a**2);
+// }
+// squareOfTheNumber(7);
+
+
+// 7
+// 1 $ is 11200 so'm
+// function currencyChange(value) {
+//     console.log("Sizda",Math.trunc(value/11200),"$ pulingiz bor");
+// }
+// currencyChange(1000000)
+
+
+// 8
+// function calc(number) {
+//     console.log(Math.trunc(((number % 1000) % 100) / 10) * (Math.trunc(number / 1000)));
+// }
+// calc(2395);
+
+
+// 9
+// function NumberDecade(number) {
+//     console.log(Math.trunc(((number % 1000) % 100) / 10));
+// }
+// NumberDecade(1452);
+
+
+// 10
+// function number7Degree(number) {
+//     console.log(((number ** 3) ** 2) * number);
+// }
+// number7Degree(7);
+
+// 11
+// function toMetr(number) {
+//     console.log(number/100,"number convert from santimetr to metr");
+// }
+// toMetr(25);
+
+
+// 12
+// function centuryNumber(number) {
+//     console.log(Math.trunc(number / 100));
+// }
+// centuryNumber(999);
+
+
+// 13
+// function moveNumber(a) {
+//     console.log(a % 100, Math.trunc(a / 100));
+// }
+// moveNumber(478);
+
+
+// 14
+// function numberReverse(a) {
+//     console.log((a % 100) % 10, Math.trunc((a % 100) / 10), Math.trunc(a / 110));
+// }
+// numberReverse(123);
+
+
+// 15
+// function multiplacationNumbers(number) {
+//     console.log(Math.trunc(number / 1000) * Math.trunc((number % 1000) / 100) * 
+//     Math.trunc(((number % 1000) % 100) / 10) * (((number % 1000) % 100) % 10) );
+// }
+// multiplacationNumbers(2876);
+
+
+// 16
+// function multiplacationNumbers(number) {
+//     console.log(Math.trunc(number / 100) + Math.trunc((number % 100) / 10) + ((number % 100)%10));
+// }
+// multiplacationNumbers(287);
+
+
+// 17
+// 1 kilobyte is 1000 byte 
+// function byteToKilobyte(value) {
+//     console.log(value / 1000, "Kb");
+// }
+// byteToKilobyte(243500);
