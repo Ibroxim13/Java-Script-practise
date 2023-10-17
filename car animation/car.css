@@ -57,7 +57,7 @@
     left: 0;
     bottom: 200px;
     z-index: 999999999999999;
-    animation: object 8s infinite;
+    animation: object 5s infinite;
 }
 
 .kuzov {
@@ -70,7 +70,7 @@
     left: 29px;
     bottom: -140px;
     animation-name: tyre__1;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     background: url(tyre.png);
     background-position: center;
@@ -85,7 +85,7 @@
     left: 321px;
     bottom: -141px;
     animation-name: tyre__2;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     background: url(tyre.png);
     background-position: center;
