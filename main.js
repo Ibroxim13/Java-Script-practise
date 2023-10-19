@@ -1,4 +1,3 @@
-"use strict";
 // let x = 12;
 // let y = 10;
 // var result = x >= y ? "12 soni 10 dan katta" : "10 soni 12 dan katta";
@@ -739,7 +738,7 @@
 
 // 15
 // function multiplacationNumbers(number) {
-//     console.log(Math.trunc(number / 1000) * Math.trunc((number % 1000) / 100) * 
+//     console.log(Math.trunc(number / 1000) * Math.trunc((number % 1000) / 100) *
 //     Math.trunc(((number % 1000) % 100) / 10) * (((number % 1000) % 100) % 10) );
 // }
 // multiplacationNumbers(2876);
@@ -753,8 +752,230 @@
 
 
 // 17
-// 1 kilobyte is 1000 byte 
+// 1 kilobyte is 1000 byte
 // function byteToKilobyte(value) {
 //     console.log(value / 1000, "Kb");
 // }
 // byteToKilobyte(243500);
+
+
+// 17 th october
+
+// function searchLetter(text) {
+//     if (text.includes("i")) {
+//         console.log('Bor');
+//     }
+//     else{
+//         console.log('Yo\'q');
+//     };
+// }
+
+// searchLetter("Lorem ipsum dolor sit.");
+
+
+// function expression
+
+// let sum = 0;
+// let number = function (a) {
+//     for (let i = 1; i <= a; i++) {
+//         sum += i;
+//     }
+//     return sum;
+// }
+
+// console.log(number(10));
+
+
+// function invoking
+
+// (
+//     function (a, b) {
+//         console.log(a + b);
+//     }
+// )(10, 13);
+
+
+// arrow function
+
+// let juft = (a) => {
+//     let counter = 0;
+//     for (let i = 1; i <= a; i++) {
+//         if (i % 2 == 0) {
+//             counter += i;
+//         }
+//     }
+//     return counter;
+// }
+
+// console.log(juft(20));
+
+// 1
+
+// let ageConvertor = function (age) {
+//     if (age >= 50) {
+//         console.log("Siz kattasiz");
+//     }
+//     else{
+//         console.log("Siz kichiksiz");
+//     }
+// }
+
+// console.log(ageConvertor(18));
+
+// 2
+
+// let valueconvertor = function (price) {
+//     if (price > 3000 ) {
+//         console.log("Qimmat");
+//     }
+//     else{
+//         console.log("Arzon");
+//     }
+// }
+
+// valueconvertor(4000);
+
+// 3
+
+// let enter = (password) => {
+//     if (password === "sarimsoqpiyoz") {
+//         console.log("Hello");
+//     }
+//     else{
+//         console.log("Password isn't correct");
+//     }
+// }
+
+// enter("sarimsoqpiyoz");
+
+
+// 5
+
+// (
+//     function (age) {
+//         if (age > 0 && age < 30) {
+//             console.log("Yoshsiz");
+//         }
+//         else if (age >= age && age < 60){
+//             console.log("Kattasiz");
+//         }
+//         else{
+//             console.log("Qarisiz");
+//         }
+//     }
+// )(18);
+
+
+
+// 6
+
+// (
+//     function (name) {
+//         if (name.toLowerCase() === "Ali".toLowerCase()) {
+//             console.log("Salom og'a");
+//         }
+//         else if (name.toLowerCase() === "Ahmad".toLowerCase()) {
+//             console.log("Ko'rinmaysan do'stim");
+//         }
+//     }
+// )("Ahmad");
+
+
+// 7
+
+// let maosh = prompt("oylik daromadingiz qancha")
+// let xisobTuri = prompt("Qanday tartibda hisoblay?")
+// let juft = (xisobTuri, maosh) => {
+//     if (xisobTuri == "soliqli") {
+//         alert(`Sizning yillik soliqli daromadingiz ${12 * (maosh - (maosh * 12) / 100)}`);
+//     }
+//     else if (xisobTuri == "soliqsiz") {
+//         alert(`Sizning yillik soliqsiz daromadingiz ${12 * maosh}`);
+//     }
+//     else {
+//         alert("siz aniq aytmadingiz")
+//     }
+// }
+
+// juft(xisobTuri, maosh);
+
+
+// 19 th october Object
+
+// const object = {
+//     name: "Ibroxim",
+//     surname: "Ismoilov",
+//     age: 18,
+//     address: "Toshkent Mirzo ulug'bek"
+// }
+
+// console.log(object);
+// object.married = false;
+// object.address = "Toshkent Yunusobod";
+// console.log(object);
+
+// object["course"] = 2;
+// console.log(object["surname"]);
+
+// let car = {
+//     name: "",
+//     color: "",
+//     motorType: "",
+//     year: null
+// }
+
+// let spark = {...car};
+// spark.name = "Spark";
+// spark.color = "White";
+// spark.motorType = "Motor";
+// spark.year = 2017;
+// console.log(spark);
+
+
+// let gentra = {...car};
+// gentra.name = "Gentra";
+// gentra.color = "Bkack";
+// gentra.motorType = "Motor";
+// gentra.year = 2023;
+// console.log(gentra);
+
+// console.log(car);
+
+
+
+// let student = {
+//     name: "Ibroxim",
+//     age : 18,
+//     family:{
+//         fatherName : "Burxon",
+//         motherName : "Sadoqat"
+//     }
+// }
+
+// console.log(student.family.fatherName);
+// console.log(student.family.motherName);
+
+
+// let student = {
+//     name: "Ali",
+//     age : 24,
+//     address : "Toshknet",
+//     data : function () {
+//         console.log(`Bu talabaning ismi ${this.name} yoshi ${this.age}da u ${this.address}da tug'ilgan`);
+//     }
+// }
+      
+// student.data();
+
+function createStudent(name,surname,age,email) {
+    let dataStudent = {
+        name : name,
+        surname : surname,
+        age : age,
+        email : email
+    }
+
+    console.log(dataStudent);
+}
+
+createStudent("Vali","Toshmatov",29,"toshmatovali@gmail.com")
